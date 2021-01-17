@@ -4,7 +4,6 @@ import '../src/assets/css/MainRules.css'
 import '../src/assets/css/Responsive.css'
 import './assets/css/Animate.css'
 import './assets/css/lightbox.css'
-import $ from '../node_modules/jquery/dist/jquery'
 import Home from "./views/Home_page"
 import AboutUS from "./views/AboutUs_page"
 // import Services from "./views/Services_page"

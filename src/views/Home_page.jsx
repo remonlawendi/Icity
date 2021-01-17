@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="wraper">
       <Navbar></Navbar>
-    
+    <Slider></Slider>
       <AboutUs></AboutUs>
       <Counter></Counter>
       <Services></Services>
