@@ -31,8 +31,8 @@ function Portfolio() {
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Photography</a> </div>
                                 <div className="label-bg"></div>
-                            </div>       
-                            <div className="zoom"> 
+                            </div>
+                            <div className="zoom">
                             <a href="img/portfolio/large/project_1.jpg" className="popup-box"  data-lightbox="image" data-title="Project"> <i className="flat flaticon-magnifying-glass"></i> 
                             </a>
                             </div>
