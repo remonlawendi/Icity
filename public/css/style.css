@@ -287,7 +287,7 @@
      margin-bottom: 10px;
 }
  .owl-main .caption .hello::before{
-     content:url(../img/hello.png);
+     content:url('../img/hello.png');
      position: absolute;
      left: 0;
      background-size:100px auto;
@@ -660,7 +660,7 @@
 }
 /*---- Counter ----*/
  section#counter {
-     background:url(../img/parallax_1.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_1.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      padding:60px 0px;
      overflow:hidden;
@@ -944,7 +944,7 @@
 }
 /*---- Clients ----*/
  div#client {
-     background:url(../img/parallax_2.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_2.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:80px 0px;
@@ -1456,7 +1456,7 @@
 }
 /*---- Counter ----*/
  section#work-status.index-2 {
-     background:url(../img/parallax_3.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_3.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:60px 0px;
@@ -1531,7 +1531,7 @@
 }
 /*---- Portfolio ----*/
  section#portfolio.index-2 {
-     background:url(../img/parallax_5.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_5.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:100px 0px 75px;
@@ -1605,7 +1605,7 @@
      z-index:999;
      border-radius:400px 0 0 400px;
      right:0px;
-     background:url(../img/success.jpg) no-repeat 100% center;
+     background:url('../img/success.jpg') no-repeat 100% center;
      background-size: auto auto;
      position: absolute;
 }
@@ -1728,7 +1728,7 @@
 }
 /*---- Clients ----*/
  section#client.index-2 {
-     background:url(../img/parallax_2.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_2.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:70px 0px;
@@ -1859,7 +1859,7 @@
      z-index:999;
      border-radius:0 400px 400px 0;
      left:0;
-     background:url(../img/testimonial-bg.jpg) no-repeat right center;
+     background:url('../img/testimonial-bg.jpg') no-repeat right center;
      background-size: auto auto;
      position: absolute;
 }
@@ -2044,7 +2044,7 @@
      padding:100px 0 0;
      min-height: 600px;
      margin-top: -600px;
-     background:url(../img/footer-bg.jpg) no-repeat right top;
+     background:url('../img/footer-bg.jpg') no-repeat right top;
      background-size:cover;
 }
  footer.index-2 .section_heading {
@@ -2325,7 +2325,7 @@
 }
 /*---- Services ----*/
  section#services.index-3 {
-     background:url(../img/parallax_3.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_3.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:100px 0px;
@@ -2502,7 +2502,7 @@
 }
 /*---- Portfolio ----*/
  section#portfolio.index-3 {
-     background:url(../img/parallax_6.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_6.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:100px 0px 85px;
@@ -2574,7 +2574,7 @@
 }
 /*---- Testimonials ----*/
  section#testimonials.index-3 {
-     background:url(../img/parallax_7.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_7.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:85px 0px 75px;
@@ -2776,7 +2776,7 @@
      padding: 80px 0 0;
      min-height: 600px;
      margin-top: -600px;
-     background:url(../img/footer-bg.jpg) no-repeat right top;
+     background:url('../img/footer-bg.jpg') no-repeat right top;
      background-size: cover 
 }
  footer.index-3 .about {
@@ -2900,7 +2900,7 @@
 /****---- Homepage 3 Start ----****/
 /****---- About Us ----****/
  section#inner-banner {
-     background:url(../img/inner-banner.jpg) no-repeat fixed 50% center;
+     background:url('../img/inner-banner.jpg') no-repeat fixed 50% center;
      margin: 0 auto;
      background-size:cover;
 }
@@ -3206,14 +3206,14 @@
      border-bottom:none;
 }
  section#services-counter {
-     background:url(../img/parallax_3.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_3.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:70px 0px;
 }
 /****---- Services 1 End ----****/
  section#work-status.index-3 {
-     background:url(../img/parallax_3.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_3.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:60px 0px;
@@ -3358,7 +3358,7 @@
      padding: 85px 0 60px;
 }
  section#member {
-     background:url(../img/parallax_4.jpg) 50% 0 no-repeat fixed;
+     background:url('../img/parallax_4.jpg') 50% 0 no-repeat fixed;
      margin: 0 auto;
      height:auto;
      padding:60px 0px;

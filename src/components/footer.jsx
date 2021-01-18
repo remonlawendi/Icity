@@ -1,4 +1,3 @@
-import Logo from "../assets/img/logo.png"
 function Footer() {
     return (
         <footer>
@@ -7,7 +6,7 @@ function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-12 col-sm-12 column">
                 <div className="footer_about_content">
-                  <div className="footer_logo"><a href="index.html" title="Bizler"><img src={Logo} alt="Bizler" /></a> </div>
+                  <div className="footer_logo"><a href="index.html" title="Bizler"><img src='img/logo.png' alt="Bizler" /></a> </div>
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <p>It has survived not only five centuries, but also the leap into electronic typesetting.</p>
                   <a className="view_more" href="javascript:void(0)">View More</a> </div>

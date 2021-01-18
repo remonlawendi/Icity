@@ -1,5 +1,3 @@
-import client_img from "../assets/img/client_dp1.jpg"
-import client_img1 from "../assets/img/client_dp2.jpg"
 function Testimonials() {
     return (
         <section id="testimonials" className="gray-bg">
@@ -22,7 +20,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img } alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Tina Roth Eisenburg</h5>
                     <span>Client</span> </div>
@@ -33,7 +31,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Phil Davies</h5>
                     <span>Client</span> </div>
@@ -44,7 +42,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Joanna Monteith</h5>
                     <span>Client</span> </div>
@@ -55,7 +53,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1}alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Tina Roth Eisenburg</h5>
                     <span>Client</span> </div>
@@ -66,7 +64,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Phil Davies</h5>
                     <span>Client</span> </div>
@@ -77,7 +75,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Joanna Monteith</h5>
                     <span>Client</span> </div>
@@ -88,7 +86,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Tina Roth Eisenburg</h5>
                     <span>Client</span> </div>
@@ -99,7 +97,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Phil Davies</h5>
                     <span>Client</span> </div>
@@ -110,7 +108,7 @@ function Testimonials() {
                   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="client_detail">
-                  <div className="client_dp"> <img src={client_img1} alt="Client DP" /> </div>
+                  <div className="client_dp"> <img src='img/client_dp1.jpg' alt="Client DP" /> </div>
                   <div className="name_designation">
                     <h5>Joanna Monteith</h5>
                     <span>Client</span> </div>

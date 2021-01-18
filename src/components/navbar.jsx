@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Routes from "../Routes.js"
-import Logo from "../assets/img/logo.png"
 import axios from "axios"
 import "./navbar.css"
 function Navbar() {
@@ -16,7 +15,7 @@ function Navbar() {
                 <h2 className="nav-brand">
                   <Router>
                     <Link className="navbar-brand" to="/" title="Bizler">
-                    <img src={Logo} alt="Bizler" />
+                    <img src='img/logo.png' alt="Bizler" />
                     </Link>
                   </Router>
                 </h2>

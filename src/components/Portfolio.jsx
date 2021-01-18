@@ -1,4 +1,3 @@
-import Photography_photo from "../assets/img/portfolio/thumbnail/project_1.jpg"
 function Portfolio() {
     return (
         <section id="portfolio" className="portfolio">
@@ -28,7 +27,7 @@ function Portfolio() {
         <div className="row portfolio-gallary">
                     <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 port-item design development">
                         <div className="project portfolio-inner">
-                            <img src={Photography_photo} alt="project"/>
+                            <img src='img/portfolio/thumbnail/project_1.jpg' alt="project"/>
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Photography</a> </div>
                                 <div className="label-bg"></div>
@@ -41,7 +40,7 @@ function Portfolio() {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 port-item app logo">
                         <div className="project portfolio-inner">
-                            <img src={Photography_photo} alt="project"/>
+                            <img src='img/portfolio/thumbnail/project_1.jpg' alt="project"/>
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Ecommerce</a> </div>
                                 <div className="label-bg"></div>
@@ -51,7 +50,7 @@ function Portfolio() {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 port-item development logo">
                         <div className="project portfolio-inner">
-                            <img src={Photography_photo} alt="project"/>
+                            <img src='img/portfolio/thumbnail/project_1.jpg' alt="project"/>
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Education</a>
                                 </div>
@@ -63,17 +62,17 @@ function Portfolio() {
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 port-item design development logo">
                         <div className="project portfolio-inner">
-                            <img src={Photography_photo} alt="project"/>
+                            <img src='img/portfolio/thumbnail/project_1.jpg' alt="project"/>
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Real Estate</a> </div>
                                 <div className="label-bg"></div>
                             </div>
-                            <div className="zoom"> <a href={Photography_photo} className="popup-box"  data-lightbox="image" data-title="Project"> <i className="flat flaticon-magnifying-glass"></i> </a> </div>
+                            <div className="zoom"> <a href='img/portfolio/thumbnail/project_1.jpg' className="popup-box"  data-lightbox="image" data-title="Project"> <i className="flat flaticon-magnifying-glass"></i> </a> </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 port-item app web development">
                         <div className="project portfolio-inner">
-                            <img src={Photography_photo} alt="project"/>
+                            <img src='img/portfolio/thumbnail/project_1.jpg' alt="project"/>
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Bar & Restaurant</a></div>
                                 <div className="label-bg"></div>
@@ -83,7 +82,7 @@ function Portfolio() {
                     </div>
                       <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 port-item design development">
                         <div className="project portfolio-inner">
-                            <img src={Photography_photo} alt="project"/>
+                            <img src='img/portfolio/thumbnail/project_1.jpg' alt="project"/>
                             <div className="label">
                                 <div className="label-text"> <a href="portfolio-detail.html" className="text-title">Saloon & Spa</a></div>
                                 <div className="label-bg"></div>

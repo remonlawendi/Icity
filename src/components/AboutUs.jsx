@@ -1,4 +1,3 @@
-import section_photo from "../assets/img/about_us.png"
 function AboutUs() {
     return (
       <section id="about-us">
@@ -16,7 +15,7 @@ function AboutUs() {
         </div>
         <div className="col-lg-12 col-md-12 col-xs-12 content_sec">
           <div className="row row-safari">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow animated fadeInLeft img-area"> <img className="img_sec" src={ section_photo } alt="About" /> </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow animated fadeInLeft img-area"> <img className="img_sec" src='img/about_us.png' alt="About" /> </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow animated fadeInRight content-area">
               <h5>Providing best business solution for growing your business</h5>
               <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

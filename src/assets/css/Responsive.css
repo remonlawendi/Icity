@@ -95,7 +95,7 @@
         margin-bottom:15px;
    }
     .slider.index-2 .caption .hello::before{
-        content:url(../img/hello.png);
+        content:url('../img/hello.png');
         position: absolute;
         left: 0;
         background-size:50px auto;
