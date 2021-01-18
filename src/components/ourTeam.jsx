@@ -1,3 +1,5 @@
+import team_mimber2 from "../assets/img/team-member-pic2.jpg"
+import team_mimber3 from "../assets/img/team-member-pic3.jpg"
 function OurTeam() {
     return (
         <section id="our_team" className="gray-bg">
@@ -17,7 +19,7 @@ function OurTeam() {
             <div className="team-slider owl-two owl-carousel owl-theme">
               <div className="item team-card">
                 
-                <div className="client_dp"> <img src="img/team-member-pic3.jpg" alt="Team" /> </div>
+                <div className="client_dp"> <img src={team_mimber3} alt="Team" /> </div>
                 <div className="name_designation">
                   <h5><a href="team-member-detail.html">Tania Andrew</a></h5>
                   <span>Designer</span> </div>
@@ -28,7 +30,7 @@ function OurTeam() {
               </div>
               <div className="item team-card">
                 
-                <div className="client_dp"> <img src="img/team-member-pic.jpg" alt="Team" /> </div>
+                <div className="client_dp"> <img src={team_mimber2} alt="Team" /> </div>
                 <div className="name_designation">
                   <h5><a href="team-member-detail.html">Alec Thompson</a></h5>
                   <span>Developer</span> </div>
