@@ -1,14 +1,14 @@
 function Banner() {
     return (
         <section id="inner-banner">
-        <div class="container">
-          <div class="row">
-            <div class="inner-heading">
+        <div className="container">
+          <div className="row">
+            <div className="inner-heading">
               <h2>About Us</h2>
               <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                <ol className="breadcrumb">
+                  <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li className="breadcrumb-item active" aria-current="page">About Us</li>
                 </ol>
               </nav>
             </div>

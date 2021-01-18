@@ -1,41 +1,53 @@
-
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import Routes from "../Routes.js"
 import Logo from "../assets/img/logo.png"
+import axios from "axios"
 import "./navbar.css"
 function Navbar() {
+  axios.get('http://20.36.212.104:880/api/front/GetAllGeneralData').then( res => {
+    this.setState ={
+        
+    }
+  })
     return (
-        <header class="header">
-        <div class="container">
-    
-           <nav class="navbar navbar-expand-lg">
-                <h2 class="nav-brand">
-                  <a class="navbar-brand" href="index.html" title="Bizler"><img src={Logo} alt="Bizler" /></a>
+        <header className="header">
+        <div className="container">
+           <nav className="navbar navbar-expand-lg">
+                <h2 className="nav-brand">
+                  <Router>
+                    <Link className="navbar-brand" to="/" title="Bizler">
+                    <img src={Logo} alt="Bizler" />
+                    </Link>
+                  </Router>
                 </h2>
-    
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
-                aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  <span class="navbar-toggler-icon"></span>
-                  <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button"
+                        data-toggle="collapse" data-target="#nav-content"  aria-controls="nav-content"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                  <span className="navbar-toggler-icon"></span>
+                  <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="main-menu collapse navbar-collapse" id="nav-content">
-                  <ul class="navbar-nav">
-                    <li class="nav-item dropdown active">
-                      <a class="nav-link" data-toggle="dropdown" href="#">Home</a>
+                <Router>
+                <div className="main-menu collapse navbar-collapse" id="nav-content">
+                  <ul className="navbar-nav">
+                    <li className="nav-item dropdown active">
+                      <Link to="/" className="nav-link" data-toggle="dropdown" >Home</Link>
                     </li>
-                     <li class="nav-item dropdown">
-                      <a class="nav-link" data-toggle="dropdown" href="#">About Us</a>
+                     <li className="nav-item dropdown">
+                      <Link className="nav-link" data-toggle="dropdown" to="/aboutus" >About Us</Link>
                     </li>
-                     <li class="nav-item dropdown">
-                      <a class="nav-link" data-toggle="dropdown" href="#">Services</a>
+                     <li className="nav-item dropdown">
+                      <Link className="nav-link" data-toggle="dropdown" to="/service">Services</Link>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link" data-toggle="dropdown" href="#">Portfolio</a>
+                    <li className="nav-item dropdown">
+                      <Link className="nav-link" data-toggle="dropdown" to="/portfolio">Portfolio</Link>
                     </li>
-                     <li class="nav-item dropdown">
-                      <a class="nav-link"  data-toggle="dropdown" href="#">Contact Us</a>
+                     <li className="nav-item dropdown">
+                      <Link className="nav-link"  data-toggle="dropdown" to="contactus">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
+                </Router>
               </nav>
         </div>
       </header>
@@ -43,4 +55,3 @@ function Navbar() {
   }
   
   export default Navbar;
-  

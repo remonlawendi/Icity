@@ -6,7 +6,7 @@ function Slider() {
      let revapi1174;
      const initSlider = () => {
           jQuery(document).ready(function () {
-               if (jQuery("#rev_slider_1174_1").revolution == undefined) {
+               if (jQuery("#rev_slider_1174_1").revolution === undefined) {
                     // revslider_showDoubleJqueryError("#rev_slider_1174_1");
                     console.error('Error initializing rev slider')
                } else {
@@ -20,12 +20,12 @@ function Slider() {
                          },
                          responsiveLevels: [1240, 1024, 778, 480],
                          visibilityLevels: [1240, 1024, 778, 480],
-                         gridwidth: [1240, 1024, 778, 480],
-                         gridheight: [868, 768, 960, 720],
+                         gridWidth: [1240, 1024, 778, 480],
+                         gridHeight: [868, 768, 960, 720],
                          lazyType: "none",
                          parallax: {
                               type: "scroll",
-                              origo: "slidercenter",
+                              origo: "sliderCenter",
                               speed: 400,
                               levels: [10, 15, 20, 25, 30, 35, 40, -10, -15, -20, -25, -30, -35, -40, -45, 55],
                               type: "scroll",
@@ -48,7 +48,6 @@ function Slider() {
                               disableFocusListener: false,
                          }
                     });
-                    console.log(revapi1174)
                }
           });
      }
@@ -61,8 +60,19 @@ function Slider() {
 
                     <div id="rev_slider_1174_1" ref={ref} className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.1">
                          <ul>
-                              <li data-index="rs-3238" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="500" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                   <img src="img/transparent.png" data-bgcolor="#f9f9f9" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
+                         <li 
+                              dataIndex="rs-3238"
+                              dataTransition="fade"
+                              dataSlotAmount="default"
+                              dataHideAfterLoop="0"
+                              dataHideSlideOnMobile="off" 
+                              dataEasein="default" 
+                              dataEaseout="default" 
+                              dataMasterSpeed="500" 
+                              dataRotate="0" 
+                              dataSavePerformance="off" 
+                              dataTitle="Slide" dataParam1="" dataParam2="" dataParam3="" dataParam4="" dataParam5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                   <img src="img/transparent.png" data-bgcolor="#f9f9f9" alt="" dataBgPosition="center center" dataBgFit="cover" dataBgRepeat="no-repeat" dataBgParallax="off" className="rev-slidebg" data-no-retina />
                                    <div className="tp-caption tp-resizeme rs-parallaxlevel-8"
                                         id="slide-3238-layer-4"
                                         data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']"
@@ -72,15 +82,15 @@ function Slider() {
                                         data-whitespace="nowrap"
 
                                         data-type="image"
-                                        data-basealign="slide"
+                                        dataBaseAlign="slide"
                                         data-responsive_offset="on"
 
                                         data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                        data-textAlign="['left','left','left','left']"
-                                        data-paddingtop="[0,0,0,0]"
-                                        data-paddingright="[0,0,0,0]"
-                                        data-paddingbottom="[0,0,0,0]"
-                                        data-paddingleft="[0,0,0,0]"
+                                        dataTextAlign="['left','left','left','left']"
+                                        dataPaddingTop="[0,0,0,0]"
+                                        dataPaddingRight="[0,0,0,0]"
+                                        dataPaddingBottom="[0,0,0,0]"
+                                        dataPaddingLeft="[0,0,0,0]"
 
                                         style={{ zIndex: 5, borderWidth: "0px" }}><img src="img/header_penpot.png" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina /> </div>
 
@@ -280,18 +290,29 @@ function Slider() {
 
                                    <div className="tp-caption content tp-resizeme rs-parallaxlevel-2"
                                         id="slide-3238-layer-2"
-                                        data-x="['center','center','center','center']" data-hoffset="['-8','-8','-8','-8']"
+                                        data-x="['center','center','center','center']" 
+                                        data-hoffset="['-8','-8','-8','-8']"
                                         data-type="text"
-                                        data-frames='[{"from":"y:50px;rX:45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-
+                                        data-frames='[{"from":"y:50px;rX:45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'>
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                   </div>
 
                                    <div className="tp-caption buttons rev-btn rs-parallaxlevel-3"
                                         id="slide-3238-layer-3"
-                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-
+                                        data-x="['center','center','center','center']" 
+                                        data-hoffset="['0','0','0','0']"
                                         data-type="button"
-
-                                        data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(32, 85, 199, 1.00);bs:solid;"}]'><a className="view_more" href="javascript:void(0)" title="View More">View More </a> <a className="view_more" href="contact-us-1.html" title="Contact US">Contact Us </a> </div>
+                                        data-frames='[
+                                             {"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},
+                                             {"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(32, 85, 199, 1.00);bs:solid;"}
+                                        ]'>
+                                        <a className="view_more" href="javascript:void(0)" title="View More">
+                                        View More 
+                                        </a>
+                                        <a className="view_more" href="contact-us-1.html" title="Contact US">
+                                        Contact Us
+                                        </a> 
+                                   </div>
                                    <div className="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5"
                                         id="slide-3238-layer-13"
                                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -312,7 +333,8 @@ function Slider() {
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
 
-                                        style={{ zIndex: 19, minWidth: '35px', maxWidth: '55px', whiteSpace: 'nowrap', fontWeight: 400, borderColor: 'rgba(51, 51, 51, 1.00)', borderStyle: 'solid', borderWidth: '3px', bordeRadius: '23px 23px 23px 23px', boxSizing: 'border-box', mozBoxSizing: 'border-box', webkitBoxSizing: 'borderBox', cursor: 'pointer' }}> <span> </span> </div>
+                                        style={{ zIndex: 19, minWidth: '35px', maxWidth: '55px', whiteSpace: 'nowrap', fontWeight: 400, borderColor: 'rgba(51, 51, 51, 1.00)', borderStyle: 'solid', borderWidth: '3px', bordeRadius: '23px 23px 23px 23px', boxSizing: 'border-box', mozBoxSizing: 'border-box', webkitBoxSizing: 'borderBox', cursor: 'pointer' }}> 
+                                        </div>
                               </li>
                          </ul>
                          <div className="tp-bannertimer tp-bottom" style={{ visibility: 'hidden !important' }} ></div>

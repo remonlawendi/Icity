@@ -1,18 +1,15 @@
-import Navbar from "../components/navbar"
+
 import Banner from "../components/Banner"
-import Counter from "../components/Counter"
-import Footer from "../components/footer"
+import Counter from "../components/counter"
 import Portfolio from "../components/Portfolio"
-function ServiceDetailsPage() {
+function PortfolioPage() {
   return (
     <div className="wraper">
-      <Navbar></Navbar>
       <Banner></Banner>
-    <Portfolio></Portfolio>
+      <Portfolio></Portfolio>
       <Counter></Counter>
-      <Footer></Footer>
     </div>
   );
 }
 
-export default ServiceDetailsPage;
+export default PortfolioPage;

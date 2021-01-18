@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import AboutUs from "../components/AboutUs"
 import Counter from "../components/counter"
@@ -11,8 +10,7 @@ import Slider from "../components/Slider"
 function Home() {
   return (
     <div className="wraper">
-      <Navbar></Navbar>
-    <Slider></Slider>
+      <Slider></Slider>
       <AboutUs></AboutUs>
       <Counter></Counter>
       <Services></Services>
@@ -20,7 +18,6 @@ function Home() {
       <Portfolio></Portfolio>
       <Clients></Clients>
       <Testimonials></Testimonials>
-      <Footer></Footer>
     </div>
   );
 }
