@@ -11,18 +11,18 @@ export const Routes = () => <Router>
     <Route path="/" exact>
       <Home />
     </Route>
-    <Route path="/aboutus" >
+    <Route path="/aboutus" exact>
       <AboutUs/>
     </Route>
-    <Route path="/service" >
+    <Route path="/service" exact>
       <Service/>
     </Route>
-    <Route path="/portfolio" >
+    <Route path="/portfolio" exact>
       <Portfolio/>
     </Route>
-    <Route path="/contactus"  >
+    <Route path="/contactus"  exact>
       <ContactUs/>
-    </Route>   
+    </Route>
     <Route>
       <Notfound />
     </Route>

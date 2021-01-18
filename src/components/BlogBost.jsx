@@ -23,7 +23,7 @@ function BlogPosts() {
                   <div className="post-title">
                     <h5><a href="blog-detail.html">Standard has been the industry</a></h5>
                   </div>
-                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="javascript:void(0)">Admin</a> </div>
+                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="(0)">Admin</a> </div>
                   <div className="about_post">
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                   </div>
@@ -38,7 +38,7 @@ function BlogPosts() {
                   <div className="post-title">
                     <h5><a href="blog-detail.html">It has survived not only five centuries</a></h5>
                   </div>
-                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="javascript:void(0)">Admin</a> </div>
+                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="(0)">Admin</a> </div>
                   <div className="about_post">
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                   </div>
@@ -54,7 +54,7 @@ function BlogPosts() {
                   <div className="post-title">
                     <h5><a href="blog-detail.html">Standard has been the industry's</a></h5>
                   </div>
-                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="javascript:void(0)">Admin</a> </div>
+                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="(0)">Admin</a> </div>
                   <div className="about_post">
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                   </div>
@@ -69,7 +69,7 @@ function BlogPosts() {
                   <div className="post-title">
                     <h5><a href="blog-detail.html">It has survived not only five centuries</a></h5>
                   </div>
-                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="javascript:void(0)">Admin</a> </div>
+                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="(0)">Admin</a> </div>
                   <div className="about_post">
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                   </div>
@@ -85,7 +85,7 @@ function BlogPosts() {
                   <div className="post-title">
                     <h5><a href="blog-detail.html">Lorem Ipsum has been the industry's</a></h5>
                   </div>
-                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="javascript:void(0)">Admin</a> </div>
+                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="(0)">Admin</a> </div>
                   <div className="about_post">
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                   </div>
@@ -100,7 +100,7 @@ function BlogPosts() {
                   <div className="post-title">
                     <h5><a href="blog-detail.html">It has survived not only five centuries</a></h5>
                   </div>
-                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="javascript:void(0)">Admin</a> </div>
+                  <div className="posted_by"> <i className="flat flaticon-avatar"></i> Posted By - <a href="(0)">Admin</a> </div>
                   <div className="about_post">
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                   </div>

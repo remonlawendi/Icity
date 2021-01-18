@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import Routes from "../Routes.js"
 import axios from "axios"
 import "./navbar.css"
 function Navbar() {

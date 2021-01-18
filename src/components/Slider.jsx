@@ -282,7 +282,7 @@ function Slider() {
 
                                         data-type="button"
 
-                                        data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(32, 85, 199, 1.00);bs:solid;"}]'><a className="view_more" href="javascript:void(0)" title="View More">View More </a> <a className="view_more" href="contact-us-1.html" title="Contact US">Contact Us </a> </div>
+                                        data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(32, 85, 199, 1.00);bs:solid;"}]'><a className="view_more" href="(0)" title="View More">View More </a> <a className="view_more" href="contact-us-1.html" title="Contact US">Contact Us </a> </div>
 
                                    <div className="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5"
                                         id="slide-3238-layer-13"

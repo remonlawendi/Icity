@@ -37,7 +37,7 @@ function Pricing() {
                     <li className="deactive">Extra Feature</li>
                   </ul>
                 </div>
-                <div className="purchase"> <a className="purchase_now" href="javascript:void(0)" title="Purchase Now">Purchase Now</a> </div>
+                <div className="purchase"> <a className="purchase_now" href="(0)" title="Purchase Now">Purchase Now</a> </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 price_card ultimate">
                 <div className="plan-title">
@@ -59,7 +59,7 @@ function Pricing() {
                     <li>Extra Feature</li>
                   </ul>
                 </div>
-                <div className="purchase"> <a className="purchase_now" href="javascript:void(0)" title="Purchase Now">Purchase Now</a> </div>
+                <div className="purchase"> <a className="purchase_now" href="(0)" title="Purchase Now">Purchase Now</a> </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 price_card">
                 <div className="plan-title">
@@ -81,7 +81,7 @@ function Pricing() {
                     <li className="deactive">Extra Feature</li>
                   </ul>
                 </div>
-                <div className="purchase"> <a className="purchase_now" href="javascript:void(0)" title="Purchase Now">Purchase Now</a> </div>
+                <div className="purchase"> <a className="purchase_now" href="(0)" title="Purchase Now">Purchase Now</a> </div>
               </div>
             </div>
           </div>
