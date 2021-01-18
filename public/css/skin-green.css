@@ -9,13 +9,13 @@
  form .form-group button[type="submit"]{
      background: #529e19;
 }
- .navbar-nav .nav-item.active a{
+ .navbar-nav .nav-item .active a{
      color:#529e19;
 }
- .navbar-nav .nav-item.active a.dropdown-toggle::after{
+ .navbar-nav .nav-item .active a.dropdown-toggle::after{
      color:#529e19;
 }
- .header-transparent .nav-item.dropdown.active a{
+ .header-transparent .nav-item.dropdown .active a{
      color:#529e19;
 }
  .dropdown-item a:hover{

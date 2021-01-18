@@ -4262,4 +4262,7 @@
      display:inline-block;
 }
 /****---- Error 404 End ----****/
- 
+
+a.nav-link.nav-link.active {
+    color: #529e19;
+}

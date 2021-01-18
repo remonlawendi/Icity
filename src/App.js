@@ -6,12 +6,15 @@ import './assets/css/Animate.css'
 import './assets/css/lightbox.css'
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
+import { BrowserRouter as Router } from 'react-router-dom'
 function App() {
   return (
     <div className="wraper">
-    <Navbar></Navbar>
-      <Routes />
-    <Footer></Footer>
+    <Router>
+      <Navbar></Navbar>
+        <Routes />
+      <Footer></Footer>
+    </Router>
     </div>
   );
 }
